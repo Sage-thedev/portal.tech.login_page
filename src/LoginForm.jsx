@@ -19,7 +19,8 @@ function LoginForm() {
         >
             <Box className='flex flex-col md:flex-row shadow-lg w-full h-full'>
                 <Box className='flex flex-row md:flex-col justify-center items-center gap-[16px] md:gap-[32px] w-full mb-[5px] md:w-[40%] py-[3rem] rounded-br-[40%] md:rounded-br-[50%] md:rounded-bl-[50%] rounded-bl-2xl border-white shadow-2xl'>
-                    <Image src="src/assets/logo.jpg" alt="" className='h-auto w-48 md:w-[100%]' />
+                <Image src="/logo.jpg" alt="University Logo" className='h-auto w-48 md:w-[100%]' />
+
                     <Heading as='h1' className='md:text-center text-fuchsia-800 text-[18px] md:text-[33.22px] leading-[29.53px] font-semibold tracking-[2.66px]'>
                         Abiola Ajimobi Technical University
                     </Heading>
